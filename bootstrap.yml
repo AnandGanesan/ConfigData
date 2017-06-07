@@ -1,0 +1,23 @@
+---
+spring:
+  profiles: sentence
+  application:
+    name: lab-4-sentence
+    
+---
+spring:
+  profiles: subject
+  application:
+    name: lab-4-subject
+  
+---
+spring:
+  profiles: verb
+  application:
+    name: lab-4-verb
+
+---
+spring:
+  profiles: article
+  application:
+    name: lab-4-article
