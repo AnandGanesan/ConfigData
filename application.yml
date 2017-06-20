@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://ec2-13-58-184-193.us-east-2.compute.amazonaws.com,http://ec2-13-58-128-97.us-east-2.compute.amazonaws.com,http://ec2-13-58-108-46.us-east-2.compute.amazonaws.com
+      defaultZone: http://eureka-primary:8010/eureka/
       #http://eureka-primary:8011/eureka/,http://eureka-secondary:8012/eureka/,http://eureka-tertiary:8013/eureka/
 
 ---
